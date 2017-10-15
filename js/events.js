@@ -22,5 +22,6 @@ $(document).ready(function(){
 
 return getIt()
 return frameIt()
+return pressIt()
 
 });
