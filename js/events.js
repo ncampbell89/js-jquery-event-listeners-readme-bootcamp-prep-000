@@ -9,6 +9,6 @@ function getIt() {
 
 $(document).ready(function(){
 
-getIt()
+return getIt()
 
 });
