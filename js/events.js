@@ -18,10 +18,22 @@ function pressIt() {
   })
 }
 
+function submitIt() {
+  $("form").on('submit', function() {
+    if ($("input:first").val() == "correct") {
+      alert("Your form is going to be submitted.")
+      return;
+    }
+    alert("You entered the wrong value.")
+    return;
+  })
+}
+
 $(document).ready(function(){
 
 return getIt()
 return frameIt()
 return pressIt()
+return submitIt()
 
 });
