@@ -1,7 +1,8 @@
 function getIt() {
   $("p").on("click", function() {
     if ($("p") === "click") {
-      alert("Hey!")
+      alert("Hey!");
+      return;
     }
   })
 }
